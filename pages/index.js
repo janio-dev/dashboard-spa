@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
     </Head>
     <div>
       <h1>Bem vindo a página inicial do nosso site!</h1>
+      <Link href="/dashboard/categoria">
+      <button>Dashboard</button>
+      </Link>
     </div>
     </>
   )
